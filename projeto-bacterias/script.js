@@ -58,6 +58,7 @@ function renderQuestion(){
   resultP.textContent = `Pergunta ${current+1} de ${quizData.length}`;
 }
 
+
 function selectAnswer(btn, idx){
   // não permitir múltiplas respostas
   if (answersDiv.querySelector('.selected')) return;
