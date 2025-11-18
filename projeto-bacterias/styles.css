@@ -16,7 +16,7 @@
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
-  margin:0;
+  margin:10px;
   background:linear-gradient(180deg,var(--surface),#fff);
   color:var(--txt);
   -webkit-font-smoothing:antialiased;
