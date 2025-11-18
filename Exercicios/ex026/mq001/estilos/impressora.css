@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Estilo para impressoras*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.0em;
+    line-height: 1.5em;
+}
+menu {
+    display: none;
+}
+article::after {
+    content: 'Esse site foi feito no meu computador na cidade de Ermo-SC';
+}
+article {
+    width: 100%;
+}
