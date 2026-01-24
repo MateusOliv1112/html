@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template: 1fr 0.8fr 60% 0.8fr / 3fr 1fr;
+            width: 95vw;
+            height: 98vh;
+            text-align: center;
+        }
+        .topo{
+            grid-area: 1 / 1 / 2 / 3;
+            border: 3px solid black;
+        }
+        .menu {
+            grid-area: 2 / 1 / 3 / 3;
+            border: 3px solid black;
+        }
+        .principal {
+            grid-area: 3 / 1 / 4 / 3;
+            border: 3px solid black;
+        }
+        .secundario {
+            grid-area: 3 / 2 / 4 / 3;
+            border: 3px solid black;
+        }
+        .rodape {
+            grid-area: 4 / 1 / 5 / 3;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="topo">Título site</div>
+        <div class="menu">Menu</div>
+        <div class="principal">Conteúdo principal</div>
+        <div class="secundario">Propaganda</div>
+        <div class="rodape">Rodapé</div>
+    </main>
+</body>
+</html>
